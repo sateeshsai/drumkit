@@ -1,0 +1,39 @@
+body {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	height: 100vh;
+}
+
+.keys {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: repeat(2, 1fr);
+	width: 30rem;
+	grid-gap: 1rem;
+}
+
+.key {
+	display: grid;
+	background-color: rgb(67, 205, 62);
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding: 1rem 0rem 1rem 0rem;
+	transition: all 0.1s;
+	border-radius: 1rem;
+}
+
+.key span {
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.key-pressed {
+	background-color: red;
+}
+
+kbd {
+	font-size: 5rem;
+}
